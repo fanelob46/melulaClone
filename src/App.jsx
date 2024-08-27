@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import NavBar from './Components/NavBar'
+import Hero from './Components/Hero'
 
 
 function App() {
@@ -6,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1 className='text-4xl'>melula</h1>
+      <Hero/>
     </>
   )
 }
