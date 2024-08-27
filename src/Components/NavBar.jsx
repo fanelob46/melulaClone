@@ -21,8 +21,12 @@ const NavBar = () => {
           </a>
         </li>
       </ul>
-  
-      <RiShoppingCartLine className='text-white size-7' />
+   <div className='relative'>
+   <RiShoppingCartLine className='text-white size-7' />
+   <span className='absolute -top-1 -right-3  bg-orange-200 text-white text-xs font-bold rounded-full px-[9px] py-1'>
+    0
+  </span>
+   </div>
     </nav>
   </section>
   

@@ -8,7 +8,8 @@ export default {
     extend: {
       backgroundImage:{
         'hero': "url('../src/Components/Images/bg.jpg')",
-      }
+      },
+     
     
     },
   },
