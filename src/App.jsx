@@ -4,6 +4,7 @@ import Productss from './Components/Productss'
 import About from './Components/About'
 import About_products from './Components/About_products'
 import Talk from './Components/Talk'
+import Footer from './Components/Footer'
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <About/>
       <About_products/>
       <Talk/>
+      <Footer/>
      
     </>
   )
